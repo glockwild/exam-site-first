@@ -10,3 +10,79 @@ nav {
 .active-sidenav {
     background-color: rgb(207, 92, 111);
 }
+
+.image-box {
+    position: relative;
+    bottom: 50px;
+    background-color: rgb(143, 224, 143);
+    width: 140px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+.border-for-card {
+    height: 200px;
+    box-shadow: 1px 1px 5px 1px black;
+}
+
+.small-text {
+    font-size: 17px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.644);
+}
+
+.big-text {
+    font-size: 33px;
+    font-weight: 500;
+}
+
+.last-item {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    bottom: 70px;
+}
+
+.margin-for-last {
+    margin: 6px;
+}
+
+.image-box-two {
+    position: relative;
+    bottom: 50px;
+    background-color: rgb(226, 193, 133);
+    width: 140px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+.image-box-three {
+    position: relative;
+    bottom: 50px;
+    background-color: rgb(143, 143, 241);
+    width: 140px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+.image-box-four {
+    position: relative;
+    bottom: 50px;
+    background-color: rgb(233, 111, 131);
+    width: 140px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
