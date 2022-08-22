@@ -5,9 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
-    
+
+    <nav class="white"> 
+        <a href="#" class="black-text logo-edit">Dashboard</a>
+        <ul id="slide-out" class="sidenav">
+            <li><div class="user-view">
+              <a href="#name"><span class="black-text logo-edit">Company</span></a>
+            </div></li>
+            <li><div class="divider"></div></li> 
+
+            <li><a class=" active-sidenav black-text" href="#!"><i class="material-icons black-text">assignment</i>Dashboard</a></li>
+            <li><a class="waves-effect" href="#!"><i class="material-icons black-text">account_box</i>User profile</a></li> 
+            <li><a class="waves-effect" href="#!"><i class="material-icons black-text">add_location</i>Maps</a></li>
+            <li><a class="waves-effect" href="#!"><i class="material-icons black-text">access_alarm</i>Notifications</a></li>
+            <li><a class="waves-effect" href="#!"><i class="material-icons black-text">attach_money</i>Support</a></li>
+          </ul>
+          <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons black-text">menu</i></a>
+    </nav>
+
+
+
+    <script src="./script/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
 </html>

@@ -1,0 +1,12 @@
+.logo-edit {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+nav {
+    box-shadow: 1px 1px white;
+}
+
+.active-sidenav {
+    background-color: rgb(207, 92, 111);
+}
