@@ -24,7 +24,7 @@ nav {
 }
 
 .border-for-card {
-    height: 200px;
+    /* height: 300px; */
     box-shadow: 1px 1px 5px 1px black;
 }
 
@@ -37,14 +37,6 @@ nav {
 .big-text {
     font-size: 33px;
     font-weight: 500;
-}
-
-.last-item {
-    display: flex;
-    text-decoration: none;
-    color: black;
-    position: relative;
-    bottom: 70px;
 }
 
 .margin-for-last {
@@ -193,4 +185,20 @@ nav {
 
 .w-f {
     font-weight: bold;
+}
+
+.t-align-r {
+    text-align: right;
+}
+
+.block-line-top {
+    position: relative;
+    top: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.226);
+    margin: 0px;
+    /* height: 130px; */
+}
+
+.pad-top {
+    margin-top: 10px;
 }
