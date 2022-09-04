@@ -86,3 +86,111 @@ nav {
     justify-content: center;
     border: 1px solid black;
 }
+
+.statistic-image {
+    background-color: rgb(119, 221, 119);
+    text-align: center;
+    border: 1px solid black;
+    position: relative;
+    bottom: 50px;
+}
+
+.card-statistic {
+    box-shadow: 1px 1px 5px 1px black;
+}
+
+.statistic-image-two {
+    background-color: rgb(218, 187, 132);
+    text-align: center;
+    border: 1px solid black;
+    position: relative;
+    bottom: 50px;
+}
+
+.statistic-image-three {
+    background-color: rgb(111, 111, 233);
+    text-align: center;
+    border: 1px solid black;
+    position: relative;
+    bottom: 50px;
+}
+
+.last-stat {
+    display: flex;
+    margin: 20px;
+    position: relative;
+    bottom: 10px;
+}
+
+.image-pos {
+    margin: 20px 0px 20px 20px;
+}
+
+.color-block {
+    background-color: rgb(218, 187, 132);
+    text-align: center;
+    border: 1px solid black;
+    position: relative;
+    bottom: 50px;
+    height: 70px;
+}
+
+.color-block-two {
+    background-color: rgb(111, 111, 233);
+    text-align: left;
+    border: 1px solid black;
+    position: relative;
+    bottom: 50px;
+    height: 90px;
+    padding-left: 20px;
+}
+
+
+.ed-text {
+    
+    padding: 23px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.ed-block {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    margin-top: 15px;
+}
+
+.ed-block:hover {
+    background-color: rgba(0, 0, 0, 0.123);
+}
+
+.pos-i {
+    position: relative;
+    top: 4px;
+    left: 10px;
+}
+
+.circle-green {
+    background-color: green;
+    border-radius: 100%;
+    width: 30px;
+}
+
+.circle-red {
+    background-color: red;
+    border-radius: 100%;
+    width: 30px;
+}
+
+.pos-t-b {
+    margin: 7px;
+}
+
+.footer-line {
+    border-top: 1px solid rgba(0, 0, 0, 0.397);
+    width: 95%;
+}
+
+.w-f {
+    font-weight: bold;
+}
