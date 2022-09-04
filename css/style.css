@@ -202,3 +202,57 @@ nav {
 .pad-top {
     margin-top: 10px;
 }
+
+.color-block-red {
+    background-color: rgb(226, 113, 132);
+    text-align: center;
+    border: 1px solid black;
+    position: relative;
+    bottom: 50px;
+    height: 90px;
+}
+
+.t-align-l {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.user-comp {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(226, 113, 132);
+    border: 1px solid black;
+}
+
+.user-comp > p {
+    padding-top: 10px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.footer-line-two {
+    border-top: 1px solid rgba(0, 0, 0, 0.397);
+    width: 95%;
+}
+
+.footr {
+    padding-top: 100px;
+}
+
+.image-circle > img {
+    border-radius: 50%;
+    position: relative;
+    bottom: 80px;
+}
+
+.p-top {
+    padding-top: 30px;
+}
+
+.t-align-c {
+    text-align: center;
+}
+
+.p-for-alec {
+    padding-left: 100px;
+}
